@@ -8,7 +8,7 @@
     parameters: {}
 
   action:
-    ref: "panic_room.happy_days"
+    ref: "panic_room.watch_twitter"
     parameters:
         user: "@{{trigger.user.screen_name}}"
         tweet: "{{trigger.text}}"

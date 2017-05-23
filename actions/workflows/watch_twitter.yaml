@@ -17,7 +17,9 @@ panic_room.watch_twitter:
                 sentiment: <% task(analyse).result.result %>
             on-success:
                 - good: <% $.sentiment > 0.2 %>
+                - bad: <% $.sentiment < -0.2 %>
         good:
-            action: core.local
+            action: chatops.post_message
             input:
-                cmd: "echo '<% $.tweet %>'"
+                channel: "Y2lzY29zcGFyazovL3VzL1JPT00vNWNlZDFjODAtM2MyMS0xMWU3LWFlZWItZDVmN2U2YWQ5OTI0"
+                message: "A user on twitter (<% $.user %>) said something positive, maybe the site is ok. '<% $.tweet %>'"
