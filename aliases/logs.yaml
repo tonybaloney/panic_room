@@ -1,0 +1,13 @@
+---
+name: "logs"
+pack: "panic_room"
+action_ref: "napalm.get_logs"
+description: "Compare host config with golden config"
+formats:
+  - "show me the logs for {{hostname}}"
+result:
+  format: |
+    I got some information for {{ execution.parameters.hostname }}
+    {% for log in execution.result.result.raw %}
+    {{log}}
+    {% endfor %}

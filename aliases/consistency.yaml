@@ -1,0 +1,19 @@
+---
+name: "consistenct"
+pack: "panic_room"
+action_ref: "napalm.check_consistency"
+description: "Compare host config with golden config"
+formats:
+  - "has anyone changed the configuration of {{hostname}}?"
+  - "has {{hostname}} changed?"
+  - "has {{hostname}} changed recently?"
+  - "who broke {{hostname}}?"
+result:
+  format: |
+    I got some information for {{ execution.parameters.hostname }}
+    {% if execution.result.result.deviation %}
+    Yes, the configuration has drifted from the golden config
+       {{execution.result.result.diff}}
+    {% else %}
+      No, the configuration is consistent.
+    {% endif %}
