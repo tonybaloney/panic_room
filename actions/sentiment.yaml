@@ -1,0 +1,12 @@
+---
+name: "sentiment"
+pack: panic_room
+runner_type: "run-python"
+description: "Get the sentiment for a sentence"
+enabled: true
+entry_point: "sentiment.py"
+parameters:
+  sentence:
+    type: "string"
+    description: "The text to analyse"
+    required: true
