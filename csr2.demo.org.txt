@@ -3,162 +3,75 @@ service timestamps debug datetime msec
 service timestamps log datetime msec
 no platform punt-keepalive disable-kernel-core
 platform console auto
-!
 hostname csr2
-!
 boot-start-marker
 boot-end-marker
-!
-!
 vrf definition MANAGEMENT
- !
  address-family ipv4
  exit-address-family
- !
  address-family ipv6
  exit-address-family
-!
-!
 no aaa new-model
-!
-!
-!
-!
-!
-!
-!
-!
-!
-
-
 
 no ip domain lookup
 ip domain name ntc.com
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
 subscriber templating
-!
-!
-!
 multilink bundle-name authenticated
-!
-!
-!
-!
-!
 crypto pki trustpoint TP-self-signed-1692872229
  enrollment selfsigned
  subject-name cn=IOS-Self-Signed-Certificate-1692872229
  revocation-check none
  rsakeypair TP-self-signed-1692872229
-!
-!
 crypto pki certificate chain TP-self-signed-1692872229
  certificate self-signed 01 nvram:IOS-Self-Sig#1.cer
 
-
-!
-!
-!
-!
-!
-!
-!
 license udi pid CSR1000V sn 9KXI0D7TVFI
 diagnostic bootup level minimal
 archive
  path bootflash:archive
-!
 spanning-tree extend system-id
 netconf-yang cisco-odm on-demand-enable
 netconf-yang cisco-odm polling-enable
 netconf-yang
 restconf
-!
 username ntc privilege 15 password 0 ntc123
-!
 redundancy
-!
-!
-!
-!
-!
+
 lldp run
 cdp run
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
-!
+
 interface GigabitEthernet1
  vrf forwarding MANAGEMENT
  ip address 10.0.0.52 255.255.255.0
  negotiation auto
-!
+
 interface GigabitEthernet2
  no ip address
  negotiation auto
-!
+
 interface GigabitEthernet3
  no ip address
  negotiation auto
-!
+
 interface GigabitEthernet4
  no ip address
  negotiation auto
-!
-!
+
+
 virtual-service csr_mgmt
-!
+
 ip forward-protocol nd
 ip http server
 ip http authentication local
 ip http secure-server
-!
+
 ip route vrf MANAGEMENT 0.0.0.0 0.0.0.0 10.0.0.2
 ip scp server enable
-!
-!
-!
-!
-!
+
 control-plane
-!
- !
- !
- !
- !
-!
-!
-!
-!
+
 alias exec ntcclear clear platform software vnic-if nv
-!
+
 line con 0
  stopbits 1
 line vty 0 4
@@ -169,10 +82,4 @@ line vty 5 30
  privilege level 15
  login local
  transport preferred ssh
-!
-!
-!
-!
-!
-!
 end
