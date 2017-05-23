@@ -1,0 +1,12 @@
+---
+name: "chart"
+pack: panic_room
+runner_type: "run-python"
+description: "Get the sentiment for a sentence"
+enabled: true
+entry_point: "chart.py"
+parameters:
+  top:
+    type: "integer"
+    description: "Number of hosts"
+    default: 10
