@@ -4,10 +4,10 @@ pack: "panic_room"
 action_ref: "napalm.check_consistency"
 description: "Compare host config with golden config"
 formats:
-  - "has anyone changed the configuration of {{hostname}}?"
-  - "has {{hostname}} changed?"
-  - "has {{hostname}} changed recently?"
-  - "who broke {{hostname}}?"
+  - "has anyone changed the configuration of {{hostname}}"
+  - "has {{hostname}} changed"
+  - "has {{hostname}} changed recently"
+  - "who broke {{hostname}}"
 result:
   format: |
     I got some information for {{ execution.parameters.hostname }}
