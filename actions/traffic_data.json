@@ -1,0 +1,1271 @@
+[
+  {
+    "application": "Miscellaneous web",
+    "destination": "15247-presscdn-0-65.pagely.netdna-cdn.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 3319,
+    "sent": 88,
+    "flows": 9,
+    "activeTime": 120,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "android-tv-api-us.crackle.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 33,
+    "sent": 3,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "c.apple.news",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 68,
+    "sent": 5,
+    "flows": 4,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "cache.marriott.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 739,
+    "sent": 36,
+    "flows": 5,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "images-us-az.crackle.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 274,
+    "sent": 11,
+    "flows": 1,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.beavercreek.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 2682,
+    "sent": 321,
+    "flows": 22,
+    "activeTime": 600,
+    "numClients": 3
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.eaglecounty.us",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 2892,
+    "sent": 228,
+    "flows": 12,
+    "activeTime": 360,
+    "numClients": 3
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.marriott.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 2077,
+    "sent": 162,
+    "flows": 8,
+    "activeTime": 180,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.yamasushivail.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 1703,
+    "sent": 79,
+    "flows": 2,
+    "activeTime": 240,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "akamaiedge.net",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 1218,
+    "sent": 145,
+    "flows": 12,
+    "activeTime": 360,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "cdn.evbstatic.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 1402,
+    "sent": 46,
+    "flows": 19,
+    "activeTime": 600,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "cloud-meraki-asn.amp.cisco.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 576,
+    "sent": 219,
+    "flows": 0,
+    "activeTime": 10200,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "edge.icloud.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 27,
+    "sent": 6,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "es.ring.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 35,
+    "sent": 246,
+    "flows": 4,
+    "activeTime": 240,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "graph.facebook.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 315,
+    "sent": 150,
+    "flows": 15,
+    "activeTime": 1200,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "otstatic.com.edgekey.net",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 1019,
+    "sent": 147,
+    "flows": 15,
+    "activeTime": 360,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "p26-ckdevice.fe.apple-dns.net",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 159,
+    "sent": 64,
+    "flows": 8,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "reports.crashlytics.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 49,
+    "sent": 1,
+    "flows": 2,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "settings.crashlytics.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 47,
+    "sent": 0,
+    "flows": 2,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "www.matsuhisarestaurants.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 6743,
+    "sent": 832,
+    "flows": 31,
+    "activeTime": 240,
+    "numClients": 3
+  },
+  {
+    "application": "ICMP",
+    "destination": "192.168.128.1",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 151,
+    "sent": 165,
+    "flows": 7,
+    "activeTime": 3900,
+    "numClients": 1
+  },
+  {
+    "application": "ICMP",
+    "destination": "208.67.222.222",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 980,
+    "sent": 994,
+    "flows": 4,
+    "activeTime": 10680,
+    "numClients": 3
+  },
+  {
+    "application": "ICMP",
+    "destination": "8.8.8.8",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 6237,
+    "sent": 6450,
+    "flows": 39,
+    "activeTime": 34200,
+    "numClients": 7
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "game.clashofclans.com",
+    "protocol": "TCP",
+    "port": 9339,
+    "recv": 348,
+    "sent": 81,
+    "flows": 1,
+    "activeTime": 900,
+    "numClients": 1
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "gamea.clashofclans.com",
+    "protocol": "TCP",
+    "port": 9339,
+    "recv": 208,
+    "sent": 26,
+    "flows": 0,
+    "activeTime": 360,
+    "numClients": 1
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "lpd.ring.com",
+    "protocol": "TCP",
+    "port": 9999,
+    "recv": 152,
+    "sent": 219,
+    "flows": 261,
+    "activeTime": 4680,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "10.0.2.19",
+    "protocol": "UDP",
+    "port": 37650,
+    "recv": 3906,
+    "sent": 3615,
+    "flows": 32,
+    "activeTime": 14340,
+    "numClients": 3
+  },
+  {
+    "application": "UDP",
+    "destination": "192.168.128.77",
+    "protocol": "UDP",
+    "port": 37650,
+    "recv": 2410,
+    "sent": 2406,
+    "flows": 20,
+    "activeTime": 9120,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "10.0.2.14",
+    "protocol": "UDP",
+    "port": 54622,
+    "recv": 2444,
+    "sent": 2287,
+    "flows": 17,
+    "activeTime": 9180,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "192.168.128.24",
+    "protocol": "UDP",
+    "port": 54622,
+    "recv": 2484,
+    "sent": 2225,
+    "flows": 19,
+    "activeTime": 9300,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "199.231.78.148",
+    "protocol": "UDP",
+    "port": 9350,
+    "recv": 139,
+    "sent": 258,
+    "flows": 0,
+    "activeTime": 19620,
+    "numClients": 4
+  },
+  {
+    "application": "UDP",
+    "destination": "64.156.192.245",
+    "protocol": "UDP",
+    "port": 9350,
+    "recv": 181,
+    "sent": 259,
+    "flows": 0,
+    "activeTime": 19860,
+    "numClients": 4
+  },
+  {
+    "application": "Meraki HTTPS",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 1531,
+    "sent": 3086,
+    "flows": 594,
+    "activeTime": 15300,
+    "numClients": 5
+  },
+  {
+    "application": "Encrypted TCP (SSL)",
+    "destination": "lpd.ring.com",
+    "protocol": "TCP",
+    "port": 9999,
+    "recv": 18,
+    "sent": 37,
+    "flows": 0,
+    "activeTime": 3660,
+    "numClients": 1
+  },
+  {
+    "application": "Meraki Control Traffic",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 4643,
+    "sent": 7625,
+    "flows": 704,
+    "activeTime": 41700,
+    "numClients": 10
+  },
+  {
+    "application": "Google",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 481,
+    "sent": 22,
+    "flows": 17,
+    "activeTime": 1380,
+    "numClients": 1
+  },
+  {
+    "application": "Host-based email (POP3/IMAP/SMTP)",
+    "destination": "imap.aol.com",
+    "protocol": "TCP",
+    "port": 993,
+    "recv": 100,
+    "sent": 13,
+    "flows": 3,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "iTunes",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 274,
+    "sent": 76,
+    "flows": 9,
+    "activeTime": 300,
+    "numClients": 3
+  },
+  {
+    "application": "apple.com",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 12002,
+    "sent": 494,
+    "flows": 154,
+    "activeTime": 4200,
+    "numClients": 5
+  },
+  {
+    "application": "DNS",
+    "destination": "208.67.222.222",
+    "protocol": "UDP",
+    "port": 53,
+    "recv": 179,
+    "sent": 78,
+    "flows": 1386,
+    "activeTime": 4860,
+    "numClients": 1
+  },
+  {
+    "application": "Facebook",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 6416,
+    "sent": 776,
+    "flows": 219,
+    "activeTime": 4080,
+    "numClients": 2
+  },
+  {
+    "application": "Gmail",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 1891,
+    "sent": 213,
+    "flows": 9,
+    "activeTime": 780,
+    "numClients": 2
+  },
+  {
+    "application": "amazon.com",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 218,
+    "sent": 101,
+    "flows": 42,
+    "activeTime": 4920,
+    "numClients": 2
+  },
+  {
+    "application": "Google HTTPS",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 13658,
+    "sent": 2694,
+    "flows": 682,
+    "activeTime": 14880,
+    "numClients": 5
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "components.otstatic.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 299,
+    "sent": 187,
+    "flows": 17,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "p26-contacts.icloud.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 195,
+    "sent": 24,
+    "flows": 4,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "wordswithfriends.zyngawithfriends.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 1,
+    "sent": 23,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "10.4.17.144",
+    "protocol": "TCP",
+    "port": 1400,
+    "recv": 861,
+    "sent": 861,
+    "flows": 2222,
+    "activeTime": 11040,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "10.4.17.144",
+    "protocol": "UDP",
+    "port": 45016,
+    "recv": 263,
+    "sent": 0,
+    "flows": 601,
+    "activeTime": 5580,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "10.4.17.38",
+    "protocol": "UDP",
+    "port": 45016,
+    "recv": 0,
+    "sent": 263,
+    "flows": 601,
+    "activeTime": 5580,
+    "numClients": 1
+  },
+  {
+    "application": "Host-based email (POP3/IMAP/SMTP)",
+    "destination": "n155.meraki.com",
+    "protocol": "TCP",
+    "port": 993,
+    "recv": 6,
+    "sent": 121,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Host-based email (POP3/IMAP/SMTP)",
+    "destination": "pcc155.meraki.com",
+    "protocol": "TCP",
+    "port": 993,
+    "recv": 9,
+    "sent": 23,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Zynga",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 7,
+    "sent": 3,
+    "flows": 2,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "10.4.16.11",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 12,
+    "sent": 462,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "10.4.16.13",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 7,
+    "sent": 563,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "10.4.16.46",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 89,
+    "sent": 991,
+    "flows": 47,
+    "activeTime": 720,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "10.4.16.6",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 379,
+    "sent": 12093,
+    "flows": 90,
+    "activeTime": 600,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "73.78.236.37",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 656,
+    "sent": 11143,
+    "flows": 363,
+    "activeTime": 3540,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "akamaiedge.net",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 1676,
+    "sent": 55,
+    "flows": 3,
+    "activeTime": 180,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "cdn.cvws.apple-dns.net",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 84,
+    "sent": 1,
+    "flows": 3,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "us-west-1.blobstore.apple-dns.net",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 610,
+    "sent": 11,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "us-west-1.blobstore.apple.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 624,
+    "sent": 5407,
+    "flows": 4,
+    "activeTime": 180,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.eagleriverassociates.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 2714,
+    "sent": 118,
+    "flows": 8,
+    "activeTime": 300,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous web",
+    "destination": "www.grouppartners.marriott.com",
+    "protocol": "TCP",
+    "port": 80,
+    "recv": 1448,
+    "sent": 52,
+    "flows": 9,
+    "activeTime": 120,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "10.4.16.46",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 761,
+    "sent": 4739,
+    "flows": 270,
+    "activeTime": 2640,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "10.4.16.6",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 2108,
+    "sent": 15063,
+    "flows": 369,
+    "activeTime": 1320,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "73.78.236.37",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 5246,
+    "sent": 39984,
+    "flows": 1141,
+    "activeTime": 6420,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "apple.com.edgekey.net",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 59,
+    "sent": 10,
+    "flows": 3,
+    "activeTime": 180,
+    "numClients": 2
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "lp-push-server-553.lastpass.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 47,
+    "sent": 2,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "ls-apple.com.akadns.net",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 201,
+    "sent": 42,
+    "flows": 14,
+    "activeTime": 720,
+    "numClients": 3
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "p26-content.icloud.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 24,
+    "sent": 4,
+    "flows": 2,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "p26-escrowproxy.icloud.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 142,
+    "sent": 18,
+    "flows": 3,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "p26-streams.icloud.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 24,
+    "sent": 3,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "prod.amcs-tachyon.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 0,
+    "sent": 25,
+    "flows": 2,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "Miscellaneous secure web",
+    "destination": "r8---sn-qxo7sn7e.gvt1.com",
+    "protocol": "TCP",
+    "port": 443,
+    "recv": 18480,
+    "sent": 244,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "ICMP",
+    "destination": "10.0.2.14",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 124,
+    "sent": 124,
+    "flows": 0,
+    "activeTime": 840,
+    "numClients": 1
+  },
+  {
+    "application": "ICMP",
+    "destination": "192.168.128.77",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 101,
+    "sent": 104,
+    "flows": 1,
+    "activeTime": 600,
+    "numClients": 1
+  },
+  {
+    "application": "ICMP",
+    "destination": "73.78.236.37",
+    "protocol": "ICMP",
+    "port": "-",
+    "recv": 6318,
+    "sent": 6594,
+    "flows": 80,
+    "activeTime": 7020,
+    "numClients": 1
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "73.78.236.37",
+    "protocol": "TCP",
+    "port": 30001,
+    "recv": 222,
+    "sent": 96,
+    "flows": 22,
+    "activeTime": 1200,
+    "numClients": 1
+  },
+  {
+    "application": "Non-web TCP",
+    "destination": "73.78.236.37",
+    "protocol": "TCP",
+    "port": 9339,
+    "recv": 92,
+    "sent": 299,
+    "flows": 0,
+    "activeTime": 960,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "239.255.255.250",
+    "protocol": "UDP",
+    "port": 1900,
+    "recv": 0,
+    "sent": 1773,
+    "flows": 31,
+    "activeTime": 10020,
+    "numClients": 4
+  },
+  {
+    "application": "UDP",
+    "destination": "23.23.189.2",
+    "protocol": "UDP",
+    "port": 33434,
+    "recv": 0,
+    "sent": 69,
+    "flows": 20,
+    "activeTime": 1140,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "23.23.189.44",
+    "protocol": "UDP",
+    "port": 33434,
+    "recv": 0,
+    "sent": 40,
+    "flows": 9,
+    "activeTime": 780,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "10.0.2.14",
+    "protocol": "UDP",
+    "port": 37650,
+    "recv": 1319,
+    "sent": 1158,
+    "flows": 0,
+    "activeTime": 5040,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 37650,
+    "recv": 0,
+    "sent": 640,
+    "flows": 81,
+    "activeTime": 7620,
+    "numClients": 3
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 54622,
+    "recv": 0,
+    "sent": 321,
+    "flows": 45,
+    "activeTime": 4320,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "192.168.128.24",
+    "protocol": "UDP",
+    "port": 57477,
+    "recv": 1323,
+    "sent": 1295,
+    "flows": 0,
+    "activeTime": 5100,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "192.168.128.77",
+    "protocol": "UDP",
+    "port": 57477,
+    "recv": 1230,
+    "sent": 1242,
+    "flows": 0,
+    "activeTime": 4980,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 57477,
+    "recv": 0,
+    "sent": 403,
+    "flows": 46,
+    "activeTime": 4860,
+    "numClients": 2
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 6666,
+    "recv": 596,
+    "sent": 212,
+    "flows": 11,
+    "activeTime": 2580,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 7351,
+    "recv": 4187,
+    "sent": 2467,
+    "flows": 303,
+    "activeTime": 6960,
+    "numClients": 1
+  },
+  {
+    "application": "UDP",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 9350,
+    "recv": 171,
+    "sent": 99,
+    "flows": 21,
+    "activeTime": 1560,
+    "numClients": 1
+  },
+  {
+    "application": "Google Maps",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 297,
+    "sent": 14,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "YouTube",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 46,
+    "sent": 1,
+    "flows": 1,
+    "activeTime": 60,
+    "numClients": 1
+  },
+  {
+    "application": "weather.com",
+    "destination": null,
+    "protocol": "-",
+    "port": "-",
+    "recv": 25,
+    "sent": 2,
+    "flows": 1,
+    "activeTime": 120,
+    "numClients": 1
+  },
+  {
+    "application": "DNS",
+    "destination": "73.78.236.37",
+    "protocol": "UDP",
+    "port": 53,
+    "recv": 71,
+    "sent": 151,
+    "flows": 960,
+    "activeTime": 1200,
+    "numClients": 1
+  },
+  {
+    "application": "DNS",
+    "destination": "224.0.0.251",
+    "protocol": "UDP",
+    "port": 5353,
+    "recv": 0,
+    "sent": 209,
+    "flows": 14,
+    "activeTime": 3060,
+    "numClients": 2
+  },
+  {
+    "application": "DNS",
+    "destination": "ff02::fb",
+    "protocol": "UDP",
+    "port": 5353,
+    "recv": 0,
+    "sent": 302,
+    "flows": 21,
+    "activeTime": 2460,
+    "numClients": 2
+  }
+]
+
+
+*****************************************
+Clients output:
+
+GET /devices/[serial]/clients
+
+[
+  {
+    "usage": {
+      "sent": 265303,
+      "recv": 4955
+    },
+    "id": "k6eac93",
+    "description": "Amazon Echo Dot",
+    "mdnsName": "linux.local",
+    "dhcpHostname": "amazon-d1fd11daf",
+    "mac": "88:71:e5:c9:05:fe",
+    "ip": "10.4.17.21",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 4828.00768425318,
+      "recv": 9245.476611419701
+    },
+    "id": "k01dc0f",
+    "description": "Sonos 1 (white)",
+    "mdnsName": "(none).local",
+    "dhcpHostname": "SonosZP",
+    "mac": "94:9f:3e:77:27:b8",
+    "ip": "10.4.17.144",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 4495195.960557308,
+      "recv": 247117.66193067914
+    },
+    "id": "k107c6c",
+    "description": "iPad Air",
+    "mdnsName": "Nakashima-iPad-Air.local",
+    "dhcpHostname": "NakashiaiPadAir",
+    "mac": "c8:f6:50:cc:6e:05",
+    "ip": "10.4.16.13",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 71,
+      "recv": 101
+    },
+    "id": "ka445d9",
+    "description": "Rebel Smart Plug (HS100)",
+    "mdnsName": null,
+    "dhcpHostname": "HS100",
+    "mac": "50:c7:bf:0e:11:4c",
+    "ip": "10.4.17.245",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 9424176,
+      "recv": 892776.0000000002
+    },
+    "id": "kad7525",
+    "description": "Karena Samsung Galaxy S4",
+    "mdnsName": "Android.local",
+    "dhcpHostname": "android-8066d0518e6ec01f",
+    "mac": "cc:3a:61:3c:7e:7c",
+    "ip": "10.4.16.46",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 408,
+      "recv": 306
+    },
+    "id": "kebd887",
+    "description": "Kaz MBP",
+    "mdnsName": "KANAKASH-M-Q1UN.local",
+    "dhcpHostname": "KANAKASH-M-Q1UN",
+    "mac": "a4:5e:60:e6:92:c3",
+    "ip": "10.4.16.45",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 11912,
+      "recv": 3197.3851389009596
+    },
+    "id": "k1a1a86",
+    "description": "Apple-TV.local",
+    "mdnsName": "Apple-TV.local",
+    "dhcpHostname": "Apple-TV",
+    "mac": "9c:20:7b:c2:43:3f",
+    "ip": "10.4.16.42",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 4102465,
+      "recv": 99066
+    },
+    "id": "k1b9d92",
+    "description": "Kaz iPhone",
+    "mdnsName": "Kazuo-Nakashima-iPhone.local",
+    "dhcpHostname": "KazuoNamaiPhone",
+    "mac": "64:b0:a6:3f:46:ce",
+    "ip": "10.4.16.85",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 97558.01884764565,
+      "recv": 1083431.4641521713
+    },
+    "id": "k2a0b41",
+    "description": "Ring Doorbell Pro",
+    "mdnsName": null,
+    "dhcpHostname": "lpvdv1",
+    "mac": "44:39:c4:b6:77:07",
+    "ip": "10.4.17.19",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 398.0775142610005,
+      "recv": 612.5387571305001
+    },
+    "id": "k381888",
+    "description": "Ring Chime",
+    "mdnsName": "2091488D2773-mysimplelink.local",
+    "dhcpHostname": null,
+    "mac": "20:91:48:8d:27:73",
+    "ip": "10.4.17.15",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 4169805.2247901103,
+      "recv": 68777.41304443494
+    },
+    "id": "k412dfe",
+    "description": "Daisuke's iPad Mini",
+    "mdnsName": "Nakashima-iPad-Mini.local",
+    "dhcpHostname": "NakashiiPadMini",
+    "mac": "84:8e:0c:95:ab:b8",
+    "ip": "10.4.16.11",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 1931105,
+      "recv": 25203
+    },
+    "id": "k42b4fc",
+    "description": "MacBook-Air.local",
+    "mdnsName": "MacBook-Air.local",
+    "dhcpHostname": "MacBook-Air",
+    "mac": "28:37:37:1d:cf:2a",
+    "ip": "10.4.16.6",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 244222.00743617883,
+      "recv": 127936.3519091496
+    },
+    "id": "k508a12",
+    "description": "Google Home",
+    "mdnsName": "f688ee41-636d-0d4c-edf5-490334f5ac69.local",
+    "dhcpHostname": "Google-Home",
+    "mac": "f4:f5:d8:c3:73:16",
+    "ip": "10.4.16.83",
+    "vlan": ""
+  },
+  {
+    "usage": {
+      "sent": 9269.476615542622,
+      "recv": 4871.546443522564
+    },
+    "id": "k5aea38",
+    "description": "RX-A660-D7F508.local",
+    "mdnsName": "RX-A660-D7F508.local",
+    "dhcpHostname": null,
+    "mac": "a4:d5:78:08:af:de",
+    "ip": "10.4.17.38",
+    "vlan": ""
+  }
+]
