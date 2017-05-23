@@ -1,7 +1,7 @@
 ---
 name: "get_facts"
 pack: "panic_room"
-action_ref: "panic_room.get_facts"
+action_ref: "napalm.get_facts"
 description: "Get device's facts (information)"
 formats:
   - "tell me about {{hostname}}"
