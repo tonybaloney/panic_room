@@ -1,0 +1,12 @@
+---
+name: "chart"
+pack: "panic_room"
+action_ref: "panic_room.chart"
+description: "Compare host config with golden config"
+formats:
+  - "top {{top}} hosts"
+  - "network traffic"
+result:
+  format: |
+    Got network stats 
+    [stats](https://168.128.28.198/img/chart.png)
