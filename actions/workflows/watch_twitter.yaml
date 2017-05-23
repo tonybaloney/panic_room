@@ -23,3 +23,8 @@ panic_room.watch_twitter:
             input:
                 channel: "Y2lzY29zcGFyazovL3VzL1JPT00vNWNlZDFjODAtM2MyMS0xMWU3LWFlZWItZDVmN2U2YWQ5OTI0"
                 message: "A user on twitter (<% $.user %>) said something positive, maybe the site is ok. '<% $.tweet %>'"
+        bad:
+            action: chatops.post_message
+            input:
+                channel: "Y2lzY29zcGFyazovL3VzL1JPT00vNWNlZDFjODAtM2MyMS0xMWU3LWFlZWItZDVmN2U2YWQ5OTI0"
+                message: "A user on twitter (<% $.user %>) is upset, maybe the site is still down. '<% $.tweet %>'"
