@@ -1,7 +1,7 @@
 ---
 name: "logs"
 pack: "panic_room"
-action_ref: "napalm.get_logs"
+action_ref: "napalm.get_log"
 description: "Compare host config with golden config"
 formats:
   - "show me the logs for {{hostname}}"
