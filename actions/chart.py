@@ -3,8 +3,6 @@ import json
 
 from st2common.runners.base_action import Action
 
-from nltk.sentiment.vader import SentimentIntensityAnalyzer
-
 
 class SentimentAction(Action):
     def __init__(self, config=None):
