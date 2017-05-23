@@ -1,0 +1,13 @@
+---
+name: panic_room
+description: When things go bad
+keywords:
+    - networking
+    - napalm
+    - cisco
+    - juniper
+    - arista
+    - ibm
+version: 1.0.0
+author: Anthony Shaw
+email: anthonyshaw@apache.org
