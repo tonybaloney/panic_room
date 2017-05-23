@@ -8,5 +8,4 @@ formats:
   - "network traffic"
 result:
   format: |
-    Got network stats 
-    [stats](https://168.128.28.198/img/chart.png)
+    ![stats](https://168.128.28.198/img/output.png)

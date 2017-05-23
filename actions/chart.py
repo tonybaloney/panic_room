@@ -1,6 +1,9 @@
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 import json
-
+import os
+from st2common.content import utils
 from st2common.runners.base_action import Action
 
 
@@ -9,7 +12,8 @@ class SentimentAction(Action):
         super(SentimentAction, self).__init__(config=config)
 
     def run(self, top):
-        with open('traffic_data.json', 'r') as traffic_data:
+        path = os.path.join(utils.get_system_packs_base_path(), 'panic_room', 'actions', 'traffic_data.json')
+        with open(path, 'r') as traffic_data:
             data = json.load(traffic_data)
 
         data.sort(key=lambda x: x['sent'])
