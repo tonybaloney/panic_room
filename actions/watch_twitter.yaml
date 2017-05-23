@@ -1,0 +1,14 @@
+---
+description: Watch twitter for certain keywords and look at the sentiment
+enabled: true
+entry_point: workflows/watch_twitter.yaml
+name: watch_twitter
+pack: panic_room
+parameters:
+  user:
+    type: string
+    required: true
+  tweet:
+    type: string
+    required: true
+runner_type: mistral-v2

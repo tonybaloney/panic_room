@@ -1,0 +1,14 @@
+---
+  name: "notify_on_happy_tweet"
+  description: "Relay Tweets to the Spark Room."
+  enabled: true
+
+  trigger:
+    type: "twitter.matched_tweet"
+    parameters: {}
+
+  action:
+    ref: "panic_room.happy_days"
+    parameters:
+        user: "@{{trigger.user.screen_name}}"
+        tweet: "{{trigger.text}}"
