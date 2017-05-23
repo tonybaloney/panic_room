@@ -1,0 +1,14 @@
+---
+name: "get_facts"
+pack: "panic_room"
+action_ref: "panic_room.get_facts"
+description: "Get device's facts (information)"
+formats:
+  - "tell me about {{hostname}}"
+
+result:
+  format: |
+    I got some information for {{ execution.parameters.hostname }}
+    {% for key, value in execution.result.result.raw.items() %}
+    - **{{key}}** is {{ value }}
+    {% endfor %}
