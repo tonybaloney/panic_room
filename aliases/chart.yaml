@@ -7,5 +7,7 @@ formats:
   - "top {{top}} hosts"
   - "network traffic"
 result:
-  format: |
-    ![stats](https://168.128.28.198/img/output.png)
+  format: "Got top hosts data from Meraki"
+  extra:
+    files:
+      - https://168.128.28.198/img/output.png
